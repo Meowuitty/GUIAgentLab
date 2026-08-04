@@ -1,0 +1,3314 @@
+{
+  "schema_version": 1,
+  "results": [
+    {
+      "task_name": "AcceptMeetingTask",
+      "reference_episode": "3979637709cb4fc78373486361642d73",
+      "initial_states": {
+        "reply_sent_to_daniel": false,
+        "reply_subject_preserves_thread": false,
+        "meeting_commitment_sent": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "reply_sent_to_daniel": false,
+            "reply_subject_preserves_thread": false,
+            "meeting_commitment_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "reply_sent_to_daniel": false,
+            "reply_subject_preserves_thread": false,
+            "meeting_commitment_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "reply_sent_to_daniel": false,
+            "reply_subject_preserves_thread": false,
+            "meeting_commitment_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "reply_sent_to_daniel": false,
+            "reply_subject_preserves_thread": false,
+            "meeting_commitment_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "reply_sent_to_daniel": false,
+            "reply_subject_preserves_thread": false,
+            "meeting_commitment_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "reply_sent_to_daniel": false,
+            "reply_subject_preserves_thread": false,
+            "meeting_commitment_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "reply_sent_to_daniel": true,
+            "reply_subject_preserves_thread": true,
+            "meeting_commitment_sent": true
+          },
+          "completed": [
+            "reply_sent_to_daniel",
+            "reply_subject_preserves_thread",
+            "meeting_commitment_sent"
+          ],
+          "newly_completed": [
+            "reply_sent_to_daniel",
+            "reply_subject_preserves_thread",
+            "meeting_commitment_sent"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "reply_sent_to_daniel": true,
+            "reply_subject_preserves_thread": true,
+            "meeting_commitment_sent": true
+          },
+          "completed": [
+            "reply_sent_to_daniel",
+            "reply_subject_preserves_thread",
+            "meeting_commitment_sent"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "AdjustBrightnessMinimumTask",
+      "reference_episode": "ec50588ad44c4161988c980a61788ffc",
+      "initial_states": {
+        "brightness_in_lowest_quarter": true,
+        "brightness_at_minimum": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "brightness_in_lowest_quarter": true,
+            "brightness_at_minimum": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "brightness_in_lowest_quarter": true,
+            "brightness_at_minimum": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "brightness_in_lowest_quarter": true,
+            "brightness_at_minimum": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "brightness_in_lowest_quarter": true,
+            "brightness_at_minimum": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "brightness_in_lowest_quarter": true,
+            "brightness_at_minimum": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "brightness_in_lowest_quarter": true,
+            "brightness_at_minimum": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "brightness_in_lowest_quarter": true,
+            "brightness_at_minimum": true
+          },
+          "completed": [
+            "brightness_at_minimum"
+          ],
+          "newly_completed": [
+            "brightness_at_minimum"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "brightness_in_lowest_quarter": true,
+            "brightness_at_minimum": true
+          },
+          "completed": [
+            "brightness_at_minimum"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "AdjustFontIconMinimumTask",
+      "reference_episode": "dc8d7b2905df47ba9307255e515ba6ba",
+      "initial_states": {
+        "font_size_at_minimum": false,
+        "display_size_at_minimum": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "font_size_at_minimum": false,
+            "display_size_at_minimum": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "font_size_at_minimum": false,
+            "display_size_at_minimum": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "font_size_at_minimum": false,
+            "display_size_at_minimum": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "font_size_at_minimum": false,
+            "display_size_at_minimum": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "font_size_at_minimum": false,
+            "display_size_at_minimum": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "font_size_at_minimum": true,
+            "display_size_at_minimum": false
+          },
+          "completed": [
+            "font_size_at_minimum"
+          ],
+          "newly_completed": [
+            "font_size_at_minimum"
+          ],
+          "progress": 0.5,
+          "hit": 1.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "font_size_at_minimum": true,
+            "display_size_at_minimum": false
+          },
+          "completed": [
+            "font_size_at_minimum"
+          ],
+          "newly_completed": [],
+          "progress": 0.5,
+          "hit": 0.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "font_size_at_minimum": true,
+            "display_size_at_minimum": true
+          },
+          "completed": [
+            "font_size_at_minimum",
+            "display_size_at_minimum"
+          ],
+          "newly_completed": [
+            "display_size_at_minimum"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 8,
+          "states": {
+            "font_size_at_minimum": true,
+            "display_size_at_minimum": true
+          },
+          "completed": [
+            "font_size_at_minimum",
+            "display_size_at_minimum"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "ChangeWallpaperTask",
+      "reference_episode": "c9758880c2ce4d7eae50452720b2e7ce",
+      "initial_states": {
+        "wallpaper_state_changed": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "wallpaper_state_changed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "wallpaper_state_changed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "wallpaper_state_changed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "wallpaper_state_changed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "wallpaper_state_changed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "wallpaper_state_changed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "wallpaper_state_changed": true
+          },
+          "completed": [
+            "wallpaper_state_changed"
+          ],
+          "newly_completed": [
+            "wallpaper_state_changed"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "wallpaper_state_changed": true
+          },
+          "completed": [
+            "wallpaper_state_changed"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "CheckDepartTimeTask",
+      "reference_episode": "633291e900a646deb5782198079086aa",
+      "initial_states": {
+        "sms_sent_to_carl": false,
+        "departure_time_question_sent": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "sms_sent_to_carl": false,
+            "departure_time_question_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "sms_sent_to_carl": false,
+            "departure_time_question_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "sms_sent_to_carl": false,
+            "departure_time_question_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "sms_sent_to_carl": false,
+            "departure_time_question_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "sms_sent_to_carl": false,
+            "departure_time_question_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "sms_sent_to_carl": false,
+            "departure_time_question_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "sms_sent_to_carl": false,
+            "departure_time_question_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "sms_sent_to_carl": false,
+            "departure_time_question_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 8,
+          "states": {
+            "sms_sent_to_carl": false,
+            "departure_time_question_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 9,
+          "states": {
+            "sms_sent_to_carl": true,
+            "departure_time_question_sent": true
+          },
+          "completed": [
+            "sms_sent_to_carl",
+            "departure_time_question_sent"
+          ],
+          "newly_completed": [
+            "sms_sent_to_carl",
+            "departure_time_question_sent"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 10,
+          "states": {
+            "sms_sent_to_carl": true,
+            "departure_time_question_sent": true
+          },
+          "completed": [
+            "sms_sent_to_carl",
+            "departure_time_question_sent"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "CheckPuchasedItem",
+      "reference_episode": "063c0d10e6cb466d88742d6a9446048e",
+      "initial_states": {
+        "correct_shoe_size_answer_submitted": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "correct_shoe_size_answer_submitted": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "correct_shoe_size_answer_submitted": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "correct_shoe_size_answer_submitted": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "correct_shoe_size_answer_submitted": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "correct_shoe_size_answer_submitted": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "correct_shoe_size_answer_submitted": true
+          },
+          "completed": [
+            "correct_shoe_size_answer_submitted"
+          ],
+          "newly_completed": [
+            "correct_shoe_size_answer_submitted"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        }
+      ]
+    },
+    {
+      "task_name": "CheckRegistrationTask",
+      "reference_episode": "31c4f8a5c8dd45adbe2d455aaf609c84",
+      "initial_states": {
+        "inquiry_sent_to_kathy": false,
+        "registration_subject_set": false,
+        "inquiry_body_present": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "inquiry_sent_to_kathy": false,
+            "registration_subject_set": false,
+            "inquiry_body_present": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "inquiry_sent_to_kathy": false,
+            "registration_subject_set": false,
+            "inquiry_body_present": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "inquiry_sent_to_kathy": false,
+            "registration_subject_set": false,
+            "inquiry_body_present": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "inquiry_sent_to_kathy": false,
+            "registration_subject_set": false,
+            "inquiry_body_present": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "inquiry_sent_to_kathy": false,
+            "registration_subject_set": false,
+            "inquiry_body_present": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "inquiry_sent_to_kathy": false,
+            "registration_subject_set": false,
+            "inquiry_body_present": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "inquiry_sent_to_kathy": false,
+            "registration_subject_set": false,
+            "inquiry_body_present": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "inquiry_sent_to_kathy": false,
+            "registration_subject_set": false,
+            "inquiry_body_present": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 8,
+          "states": {
+            "inquiry_sent_to_kathy": false,
+            "registration_subject_set": false,
+            "inquiry_body_present": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 9,
+          "states": {
+            "inquiry_sent_to_kathy": false,
+            "registration_subject_set": false,
+            "inquiry_body_present": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 10,
+          "states": {
+            "inquiry_sent_to_kathy": true,
+            "registration_subject_set": true,
+            "inquiry_body_present": true
+          },
+          "completed": [
+            "inquiry_sent_to_kathy",
+            "registration_subject_set",
+            "inquiry_body_present"
+          ],
+          "newly_completed": [
+            "inquiry_sent_to_kathy",
+            "registration_subject_set",
+            "inquiry_body_present"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 11,
+          "states": {
+            "inquiry_sent_to_kathy": true,
+            "registration_subject_set": true,
+            "inquiry_body_present": true
+          },
+          "completed": [
+            "inquiry_sent_to_kathy",
+            "registration_subject_set",
+            "inquiry_body_present"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "CheckSetMeetTimeTask",
+      "reference_episode": "b3097d33c4d74ed19a56ceb3d6132771",
+      "initial_states": {
+        "board_meeting_event_saved": false,
+        "meeting_starts_at_email_time": false,
+        "meeting_is_one_hour": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 8,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 9,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 10,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 11,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 12,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 13,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 14,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 15,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 16,
+          "states": {
+            "board_meeting_event_saved": false,
+            "meeting_starts_at_email_time": false,
+            "meeting_is_one_hour": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 17,
+          "states": {
+            "board_meeting_event_saved": true,
+            "meeting_starts_at_email_time": true,
+            "meeting_is_one_hour": true
+          },
+          "completed": [
+            "board_meeting_event_saved",
+            "meeting_starts_at_email_time",
+            "meeting_is_one_hour"
+          ],
+          "newly_completed": [
+            "board_meeting_event_saved",
+            "meeting_starts_at_email_time",
+            "meeting_is_one_hour"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 18,
+          "states": {
+            "board_meeting_event_saved": true,
+            "meeting_starts_at_email_time": true,
+            "meeting_is_one_hour": true
+          },
+          "completed": [
+            "board_meeting_event_saved",
+            "meeting_starts_at_email_time",
+            "meeting_is_one_hour"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "MastodonChangeHeaderTask",
+      "reference_episode": "9b31b33bb987499f801c00f1ff57cc96",
+      "initial_states": {
+        "header_resource_is_registered": true,
+        "header_resource_changed": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "header_resource_is_registered": true,
+            "header_resource_changed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "header_resource_is_registered": true,
+            "header_resource_changed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "header_resource_is_registered": true,
+            "header_resource_changed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "header_resource_is_registered": true,
+            "header_resource_changed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "header_resource_is_registered": true,
+            "header_resource_changed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "header_resource_is_registered": true,
+            "header_resource_changed": true
+          },
+          "completed": [
+            "header_resource_changed"
+          ],
+          "newly_completed": [
+            "header_resource_changed"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "header_resource_is_registered": true,
+            "header_resource_changed": true
+          },
+          "completed": [
+            "header_resource_changed"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "MastodonCreateListTask",
+      "reference_episode": "06aa96d95f764bb2bb1c2ef722dc7df5",
+      "initial_states": {
+        "family_list_created": false,
+        "reply_policy_followed_only": false,
+        "all_family_members_added": false,
+        "no_extra_family_members": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "family_list_created": false,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "family_list_created": false,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "family_list_created": false,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "family_list_created": false,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "family_list_created": false,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "family_list_created": false,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "family_list_created": false,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "family_list_created": false,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 8,
+          "states": {
+            "family_list_created": false,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 9,
+          "states": {
+            "family_list_created": false,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 10,
+          "states": {
+            "family_list_created": false,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 11,
+          "states": {
+            "family_list_created": false,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 12,
+          "states": {
+            "family_list_created": false,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 13,
+          "states": {
+            "family_list_created": false,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 14,
+          "states": {
+            "family_list_created": true,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": true
+          },
+          "completed": [
+            "family_list_created",
+            "no_extra_family_members"
+          ],
+          "newly_completed": [
+            "family_list_created",
+            "no_extra_family_members"
+          ],
+          "progress": 0.5,
+          "hit": 1.0
+        },
+        {
+          "index": 15,
+          "states": {
+            "family_list_created": true,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": true
+          },
+          "completed": [
+            "family_list_created",
+            "no_extra_family_members"
+          ],
+          "newly_completed": [],
+          "progress": 0.5,
+          "hit": 0.0
+        },
+        {
+          "index": 16,
+          "states": {
+            "family_list_created": true,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": true
+          },
+          "completed": [
+            "family_list_created",
+            "no_extra_family_members"
+          ],
+          "newly_completed": [],
+          "progress": 0.5,
+          "hit": 0.0
+        },
+        {
+          "index": 17,
+          "states": {
+            "family_list_created": true,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": true
+          },
+          "completed": [
+            "family_list_created",
+            "no_extra_family_members"
+          ],
+          "newly_completed": [],
+          "progress": 0.5,
+          "hit": 0.0
+        },
+        {
+          "index": 18,
+          "states": {
+            "family_list_created": true,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": true,
+            "no_extra_family_members": true
+          },
+          "completed": [
+            "family_list_created",
+            "all_family_members_added",
+            "no_extra_family_members"
+          ],
+          "newly_completed": [
+            "all_family_members_added"
+          ],
+          "progress": 0.75,
+          "hit": 1.0
+        },
+        {
+          "index": 19,
+          "states": {
+            "family_list_created": true,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": false,
+            "no_extra_family_members": true
+          },
+          "completed": [
+            "family_list_created",
+            "all_family_members_added",
+            "no_extra_family_members"
+          ],
+          "newly_completed": [],
+          "progress": 0.75,
+          "hit": 0.0
+        },
+        {
+          "index": 20,
+          "states": {
+            "family_list_created": true,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": true,
+            "no_extra_family_members": true
+          },
+          "completed": [
+            "family_list_created",
+            "all_family_members_added",
+            "no_extra_family_members"
+          ],
+          "newly_completed": [],
+          "progress": 0.75,
+          "hit": 0.0
+        },
+        {
+          "index": 21,
+          "states": {
+            "family_list_created": true,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": true,
+            "no_extra_family_members": true
+          },
+          "completed": [
+            "family_list_created",
+            "all_family_members_added",
+            "no_extra_family_members"
+          ],
+          "newly_completed": [],
+          "progress": 0.75,
+          "hit": 0.0
+        },
+        {
+          "index": 22,
+          "states": {
+            "family_list_created": true,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": true,
+            "no_extra_family_members": true
+          },
+          "completed": [
+            "family_list_created",
+            "all_family_members_added",
+            "no_extra_family_members"
+          ],
+          "newly_completed": [],
+          "progress": 0.75,
+          "hit": 0.0
+        },
+        {
+          "index": 23,
+          "states": {
+            "family_list_created": true,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": true,
+            "no_extra_family_members": true
+          },
+          "completed": [
+            "family_list_created",
+            "all_family_members_added",
+            "no_extra_family_members"
+          ],
+          "newly_completed": [],
+          "progress": 0.75,
+          "hit": 0.0
+        },
+        {
+          "index": 24,
+          "states": {
+            "family_list_created": true,
+            "reply_policy_followed_only": false,
+            "all_family_members_added": true,
+            "no_extra_family_members": true
+          },
+          "completed": [
+            "family_list_created",
+            "all_family_members_added",
+            "no_extra_family_members"
+          ],
+          "newly_completed": [],
+          "progress": 0.75,
+          "hit": 0.0
+        },
+        {
+          "index": 25,
+          "states": {
+            "family_list_created": true,
+            "reply_policy_followed_only": true,
+            "all_family_members_added": true,
+            "no_extra_family_members": true
+          },
+          "completed": [
+            "family_list_created",
+            "reply_policy_followed_only",
+            "all_family_members_added",
+            "no_extra_family_members"
+          ],
+          "newly_completed": [
+            "reply_policy_followed_only"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 26,
+          "states": {
+            "family_list_created": true,
+            "reply_policy_followed_only": true,
+            "all_family_members_added": true,
+            "no_extra_family_members": true
+          },
+          "completed": [
+            "family_list_created",
+            "reply_policy_followed_only",
+            "all_family_members_added",
+            "no_extra_family_members"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        },
+        {
+          "index": 27,
+          "states": {
+            "family_list_created": true,
+            "reply_policy_followed_only": true,
+            "all_family_members_added": true,
+            "no_extra_family_members": true
+          },
+          "completed": [
+            "family_list_created",
+            "reply_policy_followed_only",
+            "all_family_members_added",
+            "no_extra_family_members"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "MastodonCreateMemoTask",
+      "reference_episode": "dd73e59075014719824b41b2fbd18712",
+      "initial_states": {
+        "event_time_matches": false,
+        "event_title_matches": false,
+        "event_location_matches": false,
+        "event_reminder_is_one_day": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 8,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 9,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 10,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 11,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 12,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 13,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 14,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 15,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 16,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 17,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 18,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 19,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 20,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 21,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 22,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 23,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 24,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 25,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 26,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 27,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 28,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 29,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 30,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 31,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 32,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 33,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 34,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 35,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 36,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 37,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 38,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 39,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 40,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 41,
+          "states": {
+            "event_time_matches": false,
+            "event_title_matches": false,
+            "event_location_matches": false,
+            "event_reminder_is_one_day": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 42,
+          "states": {
+            "event_time_matches": true,
+            "event_title_matches": true,
+            "event_location_matches": true,
+            "event_reminder_is_one_day": true
+          },
+          "completed": [
+            "event_time_matches",
+            "event_title_matches",
+            "event_location_matches",
+            "event_reminder_is_one_day"
+          ],
+          "newly_completed": [
+            "event_time_matches",
+            "event_title_matches",
+            "event_location_matches",
+            "event_reminder_is_one_day"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 43,
+          "states": {
+            "event_time_matches": true,
+            "event_title_matches": true,
+            "event_location_matches": true,
+            "event_reminder_is_one_day": true
+          },
+          "completed": [
+            "event_time_matches",
+            "event_title_matches",
+            "event_location_matches",
+            "event_reminder_is_one_day"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "MastodonFollowTask",
+      "reference_episode": "3fb3e117b5cc4f4cbcf05f9bf94aaffb",
+      "initial_states": {
+        "robert_followed": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "robert_followed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "robert_followed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "robert_followed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "robert_followed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "robert_followed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "robert_followed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "robert_followed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "robert_followed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 8,
+          "states": {
+            "robert_followed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 9,
+          "states": {
+            "robert_followed": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 10,
+          "states": {
+            "robert_followed": true
+          },
+          "completed": [
+            "robert_followed"
+          ],
+          "newly_completed": [
+            "robert_followed"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 11,
+          "states": {
+            "robert_followed": true
+          },
+          "completed": [
+            "robert_followed"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "MastodonPinTootsTask",
+      "reference_episode": "a14456a51e8a475c83801b724ad341a1",
+      "initial_states": {
+        "first_published_toot_pinned": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "first_published_toot_pinned": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "first_published_toot_pinned": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "first_published_toot_pinned": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "first_published_toot_pinned": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "first_published_toot_pinned": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "first_published_toot_pinned": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "first_published_toot_pinned": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "first_published_toot_pinned": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 8,
+          "states": {
+            "first_published_toot_pinned": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 9,
+          "states": {
+            "first_published_toot_pinned": true
+          },
+          "completed": [
+            "first_published_toot_pinned"
+          ],
+          "newly_completed": [
+            "first_published_toot_pinned"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 10,
+          "states": {
+            "first_published_toot_pinned": true
+          },
+          "completed": [
+            "first_published_toot_pinned"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "MastodonReplyTask",
+      "reference_episode": "2b12355f1ea548fbb74a54e515907b77",
+      "initial_states": {
+        "reply_targets_moussaka_toot": false,
+        "reply_contains_expected_content": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "reply_targets_moussaka_toot": false,
+            "reply_contains_expected_content": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "reply_targets_moussaka_toot": false,
+            "reply_contains_expected_content": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "reply_targets_moussaka_toot": false,
+            "reply_contains_expected_content": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "reply_targets_moussaka_toot": false,
+            "reply_contains_expected_content": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "reply_targets_moussaka_toot": false,
+            "reply_contains_expected_content": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "reply_targets_moussaka_toot": false,
+            "reply_contains_expected_content": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "reply_targets_moussaka_toot": false,
+            "reply_contains_expected_content": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "reply_targets_moussaka_toot": false,
+            "reply_contains_expected_content": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 8,
+          "states": {
+            "reply_targets_moussaka_toot": false,
+            "reply_contains_expected_content": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 9,
+          "states": {
+            "reply_targets_moussaka_toot": true,
+            "reply_contains_expected_content": true
+          },
+          "completed": [
+            "reply_targets_moussaka_toot",
+            "reply_contains_expected_content"
+          ],
+          "newly_completed": [
+            "reply_targets_moussaka_toot",
+            "reply_contains_expected_content"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 10,
+          "states": {
+            "reply_targets_moussaka_toot": true,
+            "reply_contains_expected_content": true
+          },
+          "completed": [
+            "reply_targets_moussaka_toot",
+            "reply_contains_expected_content"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "MastodonRevisePollTask",
+      "reference_episode": "dafe3c6bb2cb4336996e280476e8a62d",
+      "initial_states": {
+        "usa_option_removed": false,
+        "brazil_replaced_with_canada": false,
+        "russia_and_china_preserved": true,
+        "three_poll_options_remain": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "usa_option_removed": false,
+            "brazil_replaced_with_canada": false,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "usa_option_removed": false,
+            "brazil_replaced_with_canada": false,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "usa_option_removed": false,
+            "brazil_replaced_with_canada": false,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "usa_option_removed": false,
+            "brazil_replaced_with_canada": false,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "usa_option_removed": false,
+            "brazil_replaced_with_canada": false,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "usa_option_removed": false,
+            "brazil_replaced_with_canada": false,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "usa_option_removed": false,
+            "brazil_replaced_with_canada": false,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "usa_option_removed": false,
+            "brazil_replaced_with_canada": false,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 8,
+          "states": {
+            "usa_option_removed": false,
+            "brazil_replaced_with_canada": false,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 9,
+          "states": {
+            "usa_option_removed": false,
+            "brazil_replaced_with_canada": false,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 10,
+          "states": {
+            "usa_option_removed": false,
+            "brazil_replaced_with_canada": false,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 11,
+          "states": {
+            "usa_option_removed": false,
+            "brazil_replaced_with_canada": false,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 12,
+          "states": {
+            "usa_option_removed": false,
+            "brazil_replaced_with_canada": false,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 13,
+          "states": {
+            "usa_option_removed": true,
+            "brazil_replaced_with_canada": true,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": true
+          },
+          "completed": [
+            "usa_option_removed",
+            "brazil_replaced_with_canada",
+            "three_poll_options_remain"
+          ],
+          "newly_completed": [
+            "usa_option_removed",
+            "brazil_replaced_with_canada",
+            "three_poll_options_remain"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 14,
+          "states": {
+            "usa_option_removed": true,
+            "brazil_replaced_with_canada": true,
+            "russia_and_china_preserved": true,
+            "three_poll_options_remain": true
+          },
+          "completed": [
+            "usa_option_removed",
+            "brazil_replaced_with_canada",
+            "three_poll_options_remain"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "RequestCarpoolingTask",
+      "reference_episode": "916bddf189464431afbf420b621b24c6",
+      "initial_states": {
+        "sms_sent_to_daniel": false,
+        "carpool_request_message_sent": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "sms_sent_to_daniel": false,
+            "carpool_request_message_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "sms_sent_to_daniel": false,
+            "carpool_request_message_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "sms_sent_to_daniel": false,
+            "carpool_request_message_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "sms_sent_to_daniel": false,
+            "carpool_request_message_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "sms_sent_to_daniel": false,
+            "carpool_request_message_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "sms_sent_to_daniel": false,
+            "carpool_request_message_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "sms_sent_to_daniel": false,
+            "carpool_request_message_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "sms_sent_to_daniel": false,
+            "carpool_request_message_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 8,
+          "states": {
+            "sms_sent_to_daniel": false,
+            "carpool_request_message_sent": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 9,
+          "states": {
+            "sms_sent_to_daniel": true,
+            "carpool_request_message_sent": true
+          },
+          "completed": [
+            "sms_sent_to_daniel",
+            "carpool_request_message_sent"
+          ],
+          "newly_completed": [
+            "sms_sent_to_daniel",
+            "carpool_request_message_sent"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 10,
+          "states": {
+            "sms_sent_to_daniel": true,
+            "carpool_request_message_sent": true
+          },
+          "completed": [
+            "sms_sent_to_daniel",
+            "carpool_request_message_sent"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "SetAlarmTask",
+      "reference_episode": "8dee0aadb98349ac9960f9c9a6ad11fe",
+      "initial_states": {
+        "alarm_time_is_0825": false,
+        "alarm_is_enabled": false,
+        "alarm_repeats_on_weekends": false,
+        "alarm_vibration_is_off": false,
+        "alarm_ringtone_is_beebeep": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "alarm_time_is_0825": false,
+            "alarm_is_enabled": false,
+            "alarm_repeats_on_weekends": false,
+            "alarm_vibration_is_off": false,
+            "alarm_ringtone_is_beebeep": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "alarm_time_is_0825": false,
+            "alarm_is_enabled": false,
+            "alarm_repeats_on_weekends": false,
+            "alarm_vibration_is_off": false,
+            "alarm_ringtone_is_beebeep": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "alarm_time_is_0825": false,
+            "alarm_is_enabled": false,
+            "alarm_repeats_on_weekends": false,
+            "alarm_vibration_is_off": false,
+            "alarm_ringtone_is_beebeep": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "alarm_time_is_0825": false,
+            "alarm_is_enabled": false,
+            "alarm_repeats_on_weekends": false,
+            "alarm_vibration_is_off": false,
+            "alarm_ringtone_is_beebeep": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "alarm_time_is_0825": false,
+            "alarm_is_enabled": false,
+            "alarm_repeats_on_weekends": false,
+            "alarm_vibration_is_off": false,
+            "alarm_ringtone_is_beebeep": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 5,
+          "states": {
+            "alarm_time_is_0825": false,
+            "alarm_is_enabled": false,
+            "alarm_repeats_on_weekends": false,
+            "alarm_vibration_is_off": false,
+            "alarm_ringtone_is_beebeep": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 6,
+          "states": {
+            "alarm_time_is_0825": false,
+            "alarm_is_enabled": false,
+            "alarm_repeats_on_weekends": false,
+            "alarm_vibration_is_off": false,
+            "alarm_ringtone_is_beebeep": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 7,
+          "states": {
+            "alarm_time_is_0825": true,
+            "alarm_is_enabled": true,
+            "alarm_repeats_on_weekends": false,
+            "alarm_vibration_is_off": false,
+            "alarm_ringtone_is_beebeep": false
+          },
+          "completed": [
+            "alarm_time_is_0825",
+            "alarm_is_enabled"
+          ],
+          "newly_completed": [
+            "alarm_time_is_0825",
+            "alarm_is_enabled"
+          ],
+          "progress": 0.4,
+          "hit": 1.0
+        },
+        {
+          "index": 8,
+          "states": {
+            "alarm_time_is_0825": true,
+            "alarm_is_enabled": true,
+            "alarm_repeats_on_weekends": false,
+            "alarm_vibration_is_off": false,
+            "alarm_ringtone_is_beebeep": false
+          },
+          "completed": [
+            "alarm_time_is_0825",
+            "alarm_is_enabled"
+          ],
+          "newly_completed": [],
+          "progress": 0.4,
+          "hit": 0.0
+        },
+        {
+          "index": 9,
+          "states": {
+            "alarm_time_is_0825": true,
+            "alarm_is_enabled": true,
+            "alarm_repeats_on_weekends": true,
+            "alarm_vibration_is_off": false,
+            "alarm_ringtone_is_beebeep": false
+          },
+          "completed": [
+            "alarm_time_is_0825",
+            "alarm_is_enabled",
+            "alarm_repeats_on_weekends"
+          ],
+          "newly_completed": [
+            "alarm_repeats_on_weekends"
+          ],
+          "progress": 0.6,
+          "hit": 1.0
+        },
+        {
+          "index": 10,
+          "states": {
+            "alarm_time_is_0825": true,
+            "alarm_is_enabled": true,
+            "alarm_repeats_on_weekends": true,
+            "alarm_vibration_is_off": false,
+            "alarm_ringtone_is_beebeep": false
+          },
+          "completed": [
+            "alarm_time_is_0825",
+            "alarm_is_enabled",
+            "alarm_repeats_on_weekends"
+          ],
+          "newly_completed": [],
+          "progress": 0.6,
+          "hit": 0.0
+        },
+        {
+          "index": 11,
+          "states": {
+            "alarm_time_is_0825": true,
+            "alarm_is_enabled": true,
+            "alarm_repeats_on_weekends": true,
+            "alarm_vibration_is_off": false,
+            "alarm_ringtone_is_beebeep": false
+          },
+          "completed": [
+            "alarm_time_is_0825",
+            "alarm_is_enabled",
+            "alarm_repeats_on_weekends"
+          ],
+          "newly_completed": [],
+          "progress": 0.6,
+          "hit": 0.0
+        },
+        {
+          "index": 12,
+          "states": {
+            "alarm_time_is_0825": true,
+            "alarm_is_enabled": true,
+            "alarm_repeats_on_weekends": true,
+            "alarm_vibration_is_off": false,
+            "alarm_ringtone_is_beebeep": false
+          },
+          "completed": [
+            "alarm_time_is_0825",
+            "alarm_is_enabled",
+            "alarm_repeats_on_weekends"
+          ],
+          "newly_completed": [],
+          "progress": 0.6,
+          "hit": 0.0
+        },
+        {
+          "index": 13,
+          "states": {
+            "alarm_time_is_0825": true,
+            "alarm_is_enabled": true,
+            "alarm_repeats_on_weekends": true,
+            "alarm_vibration_is_off": false,
+            "alarm_ringtone_is_beebeep": false
+          },
+          "completed": [
+            "alarm_time_is_0825",
+            "alarm_is_enabled",
+            "alarm_repeats_on_weekends"
+          ],
+          "newly_completed": [],
+          "progress": 0.6,
+          "hit": 0.0
+        },
+        {
+          "index": 14,
+          "states": {
+            "alarm_time_is_0825": true,
+            "alarm_is_enabled": true,
+            "alarm_repeats_on_weekends": true,
+            "alarm_vibration_is_off": true,
+            "alarm_ringtone_is_beebeep": true
+          },
+          "completed": [
+            "alarm_time_is_0825",
+            "alarm_is_enabled",
+            "alarm_repeats_on_weekends",
+            "alarm_vibration_is_off",
+            "alarm_ringtone_is_beebeep"
+          ],
+          "newly_completed": [
+            "alarm_vibration_is_off",
+            "alarm_ringtone_is_beebeep"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 15,
+          "states": {
+            "alarm_time_is_0825": true,
+            "alarm_is_enabled": true,
+            "alarm_repeats_on_weekends": true,
+            "alarm_vibration_is_off": true,
+            "alarm_ringtone_is_beebeep": true
+          },
+          "completed": [
+            "alarm_time_is_0825",
+            "alarm_is_enabled",
+            "alarm_repeats_on_weekends",
+            "alarm_vibration_is_off",
+            "alarm_ringtone_is_beebeep"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    },
+    {
+      "task_name": "TakeSelfieTask",
+      "reference_episode": "72789588d01541758f9dd5dc14e9d58b",
+      "initial_states": {
+        "new_photo_detected": false
+      },
+      "step_milestones": [
+        {
+          "index": 0,
+          "states": {
+            "new_photo_detected": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 1,
+          "states": {
+            "new_photo_detected": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 2,
+          "states": {
+            "new_photo_detected": false
+          },
+          "completed": [],
+          "newly_completed": [],
+          "progress": 0.0,
+          "hit": 0.0
+        },
+        {
+          "index": 3,
+          "states": {
+            "new_photo_detected": true
+          },
+          "completed": [
+            "new_photo_detected"
+          ],
+          "newly_completed": [
+            "new_photo_detected"
+          ],
+          "progress": 1.0,
+          "hit": 1.0
+        },
+        {
+          "index": 4,
+          "states": {
+            "new_photo_detected": true
+          },
+          "completed": [
+            "new_photo_detected"
+          ],
+          "newly_completed": [],
+          "progress": 1.0,
+          "hit": 0.0
+        }
+      ]
+    }
+  ]
+}

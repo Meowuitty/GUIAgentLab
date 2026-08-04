@@ -1,0 +1,3 @@
+method: grpo
+algorithm: grpo
+script: scripts/train/grpo.sh

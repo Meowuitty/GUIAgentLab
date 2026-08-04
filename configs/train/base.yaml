@@ -1,0 +1,7 @@
+schema_version: 1
+environment: {}
+replay: [none]
+required_environment:
+  - GUIAGENTLAB_STATE_DIR
+  - MODEL_PATH
+  - WANDB_API_KEY

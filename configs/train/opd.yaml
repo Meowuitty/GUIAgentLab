@@ -1,0 +1,12 @@
+method: opd
+algorithm: opd
+script: scripts/train/opd.sh
+environment:
+  TEACHER_INTERVENTION_ENABLED: "false"
+  HIERARCHICAL_ACTION_WEIGHTING: "false"
+  LOSS_AGG_MODE: seq-mean-token-mean
+required_environment:
+  - GUIAGENTLAB_STATE_DIR
+  - MODEL_PATH
+  - TEACHER_MODEL_PATH
+  - WANDB_API_KEY

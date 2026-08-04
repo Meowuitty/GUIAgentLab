@@ -1,0 +1,215 @@
+{
+  "schema_version": 2,
+  "episode_id": "a14456a51e8a475c83801b724ad341a1",
+  "task_name": "MastodonPinTootsTask",
+  "goal": "In Mastodon, pin the first post I published after creating the account to the top.",
+  "valid": true,
+  "final_score": 1.0,
+  "termination": "model_terminal",
+  "step_count": 11,
+  "model_errors": [],
+  "initial_screenshot": 0,
+  "steps": [
+    {
+      "index": 0,
+      "screenshot_before": 0,
+      "model_text": "<thinking>\nThought: I need to open Mastodon to view my timeline and locate the first post I published to pin it to the top.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[152,400]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 164,
+        "y": 960
+      },
+      "model_output_valid": true,
+      "screenshot_after": 1
+    },
+    {
+      "index": 1,
+      "screenshot_before": 1,
+      "model_text": "<thinking>\nThought: I should open the Profile tab to view my timeline and locate the first post I published.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[887,932]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 958,
+        "y": 2239
+      },
+      "model_output_valid": true,
+      "screenshot_after": 2
+    },
+    {
+      "index": 2,
+      "screenshot_before": 2,
+      "model_text": "<thinking>\nThought: I need to scroll down to find the first post I published, then pin it to the top of the timeline.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"swipe\",\"direction\":\"up\",\"coordinate\":[500,800]}}\n</tool_call>",
+      "action": {
+        "action_type": "scroll",
+        "x": 540,
+        "y": 1921,
+        "direction": "down"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 3
+    },
+    {
+      "index": 3,
+      "screenshot_before": 3,
+      "model_text": "<thinking>\nThought: I need to scroll to find the first post I published (before the current poll/interactive post) and pin it to the top.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"swipe\",\"direction\":\"up\",\"coordinate\":[500,800]}}\n</tool_call>",
+      "action": {
+        "action_type": "scroll",
+        "x": 540,
+        "y": 1921,
+        "direction": "down"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 4
+    },
+    {
+      "index": 4,
+      "screenshot_before": 4,
+      "model_text": "<thinking>\nThought: I need to find the first post I published (before the current poll/interactive post) and pin it to the top of the timeline.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"swipe\",\"direction\":\"up\",\"coordinate\":[500,800]}}\n</tool_call>",
+      "action": {
+        "action_type": "scroll",
+        "x": 540,
+        "y": 1921,
+        "direction": "down"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 5
+    },
+    {
+      "index": 5,
+      "screenshot_before": 5,
+      "model_text": "<thinking>\nThought: I need to find the first post I published (the one with the poll/interactive poll/interactive photo) and pin it to the top of the timeline.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"swipe\",\"direction\":\"up\",\"coordinate\":[500,800]}}\n</tool_call>",
+      "action": {
+        "action_type": "scroll",
+        "x": 540,
+        "y": 1921,
+        "direction": "down"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 6
+    },
+    {
+      "index": 6,
+      "screenshot_before": 6,
+      "model_text": "<thinking>\nThought: I need to find the first post I published (before the current poll/interactive post) and pin it to the top of the timeline.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"swipe\",\"direction\":\"up\",\"coordinate\":[500,800]}}\n</tool_call>",
+      "action": {
+        "action_type": "scroll",
+        "x": 540,
+        "y": 1921,
+        "direction": "down"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 7
+    },
+    {
+      "index": 7,
+      "screenshot_before": 7,
+      "model_text": "<thinking>\nThought: I need to find the first post I published (the one with the rocket emoji) and pin it to the top of the timeline.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"swipe\",\"direction\":\"up\",\"coordinate\":[500,800]}}\n</tool_call>",
+      "action": {
+        "action_type": "scroll",
+        "x": 540,
+        "y": 1921,
+        "direction": "down"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 8
+    },
+    {
+      "index": 8,
+      "screenshot_before": 8,
+      "model_text": "<thinking>\nThought: I need to open the menu for the first post I published (the one with the rocket emoji) and look for a pin option to move it to the top.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[943,762]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 1019,
+        "y": 1830
+      },
+      "model_output_valid": true,
+      "screenshot_after": 9
+    },
+    {
+      "index": 9,
+      "screenshot_before": 9,
+      "model_text": "<thinking>\nThought: The pin option is displayed; I should select it to move the first post to the top of the timeline.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[683,339]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 738,
+        "y": 814
+      },
+      "model_output_valid": true,
+      "screenshot_after": 10
+    },
+    {
+      "index": 10,
+      "screenshot_before": 10,
+      "model_text": "<thinking>\nThought: The confirmation toast indicates the first post is now pinned to the top. The task is complete.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"answer\",\"text\":\"task finished\"}}\n</tool_call>",
+      "action": {
+        "action_type": "answer",
+        "text": "task finished"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 11
+    }
+  ],
+  "artifacts": {
+    "screenshots": [
+      {
+        "path": "images/ed/ed1c900347e9ca365fe6cd59ae922241483b1a0b8b9dd108d9c7700a4b22b574.png",
+        "sha256": "ed1c900347e9ca365fe6cd59ae922241483b1a0b8b9dd108d9c7700a4b22b574",
+        "bytes": 1440949
+      },
+      {
+        "path": "images/fd/fd87d0c7e2f9fed42ae1184f772e71d21a8501d7337aff2a72cb1a87412a41c4.png",
+        "sha256": "fd87d0c7e2f9fed42ae1184f772e71d21a8501d7337aff2a72cb1a87412a41c4",
+        "bytes": 47245
+      },
+      {
+        "path": "images/49/495ad737ffbde4c174bc8bf14f3b95ffc919aae72aa5c9ea004246c74da26531.png",
+        "sha256": "495ad737ffbde4c174bc8bf14f3b95ffc919aae72aa5c9ea004246c74da26531",
+        "bytes": 445301
+      },
+      {
+        "path": "images/94/94eb9fa4b2d49e310352e0b32a2b59acb2e10db8fb7eb7f9ae0124d39b405d77.png",
+        "sha256": "94eb9fa4b2d49e310352e0b32a2b59acb2e10db8fb7eb7f9ae0124d39b405d77",
+        "bytes": 192531
+      },
+      {
+        "path": "images/0b/0b30e6a067e5d85da113b5113c2083bb5adb8b8bc6ecc0aef5b2a4bd75f523d9.png",
+        "sha256": "0b30e6a067e5d85da113b5113c2083bb5adb8b8bc6ecc0aef5b2a4bd75f523d9",
+        "bytes": 196711
+      },
+      {
+        "path": "images/39/39fbb12189e4cad19ba455a1c95869fa9770b2d94addb90cffc22e5d18476b6b.png",
+        "sha256": "39fbb12189e4cad19ba455a1c95869fa9770b2d94addb90cffc22e5d18476b6b",
+        "bytes": 437024
+      },
+      {
+        "path": "images/f0/f037c08a6c6fafd4cbc39464e6b9b833d06bec7c2cb351299d4cc0fa2bf4e34c.png",
+        "sha256": "f037c08a6c6fafd4cbc39464e6b9b833d06bec7c2cb351299d4cc0fa2bf4e34c",
+        "bytes": 783943
+      },
+      {
+        "path": "images/7b/7bb0ed19c5b7aad7be8b9657b0003d112b246c874ca46dc22b16ab4701a8d7e8.png",
+        "sha256": "7bb0ed19c5b7aad7be8b9657b0003d112b246c874ca46dc22b16ab4701a8d7e8",
+        "bytes": 829125
+      },
+      {
+        "path": "images/ba/bae7dcb1c5f6337b4603dc49deaf9e84526e97ed62c63d87c6445f501b4ad95a.png",
+        "sha256": "bae7dcb1c5f6337b4603dc49deaf9e84526e97ed62c63d87c6445f501b4ad95a",
+        "bytes": 827603
+      },
+      {
+        "path": "images/b8/b828060ff9de808f04d5565b0c8c0ad025721d33cab969633b0c7f66a03f7547.png",
+        "sha256": "b828060ff9de808f04d5565b0c8c0ad025721d33cab969633b0c7f66a03f7547",
+        "bytes": 520675
+      },
+      {
+        "path": "images/34/3418a11778d1d7f30b6b156929ea02e13a4c3846584ec2d1c8a6009afe113937.png",
+        "sha256": "3418a11778d1d7f30b6b156929ea02e13a4c3846584ec2d1c8a6009afe113937",
+        "bytes": 817624
+      },
+      {
+        "path": "images/0c/0cf5556e5d9b583f2682d02f6309c171b26a301fa249f8ba266a202343f3acc5.png",
+        "sha256": "0cf5556e5d9b583f2682d02f6309c171b26a301fa249f8ba266a202343f3acc5",
+        "bytes": 827604
+      }
+    ]
+  }
+}

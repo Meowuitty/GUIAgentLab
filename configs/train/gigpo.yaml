@@ -1,0 +1,11 @@
+method: gigpo
+algorithm: gigpo
+script: scripts/train/gigpo.sh
+replay: [none, success]
+required_environment:
+  - GUIAGENTLAB_STATE_DIR
+  - MODEL_PATH
+  - WANDB_API_KEY
+  - GUIAGENTLAB_PRM_BASE_URL
+  - GUIAGENTLAB_PRM_MODEL
+  - GUIAGENTLAB_PRM_API_KEY

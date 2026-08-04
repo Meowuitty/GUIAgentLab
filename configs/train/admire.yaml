@@ -1,0 +1,4 @@
+method: admire
+algorithm: admire-grpo
+script: scripts/train/admire_grpo.sh
+replay: [none, success]

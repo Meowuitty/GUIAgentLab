@@ -1,0 +1,157 @@
+{
+  "schema_version": 2,
+  "episode_id": "ec50588ad44c4161988c980a61788ffc",
+  "task_name": "AdjustBrightnessMinimumTask",
+  "goal": "Set the brightness to the minimum level.",
+  "valid": true,
+  "final_score": 1.0,
+  "termination": "model_terminal",
+  "step_count": 8,
+  "model_errors": [],
+  "initial_screenshot": 0,
+  "steps": [
+    {
+      "index": 0,
+      "screenshot_before": 0,
+      "model_text": "<thinking>\nThought: I should open Settings to adjust the display brightness to the minimum level.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[863,823]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 932,
+        "y": 1977
+      },
+      "model_output_valid": true,
+      "screenshot_after": 1
+    },
+    {
+      "index": 1,
+      "screenshot_before": 1,
+      "model_text": "<thinking>\nThought: I need to wait for the Settings menu to load before navigating to Display and adjusting the brightness.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"wait\"}}\n</tool_call>",
+      "action": {
+        "action_type": "wait"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 2
+    },
+    {
+      "index": 2,
+      "screenshot_before": 2,
+      "model_text": "<thinking>\nThought: I need to find the Display option in Settings to adjust brightness.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"swipe\",\"direction\":\"up\",\"coordinate\":[500,800]}}\n</tool_call>",
+      "action": {
+        "action_type": "scroll",
+        "x": 540,
+        "y": 1921,
+        "direction": "down"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 3
+    },
+    {
+      "index": 3,
+      "screenshot_before": 3,
+      "model_text": "<thinking>\nThought: I should open Display settings to adjust the brightness to minimum.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[258,823]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 278,
+        "y": 1977
+      },
+      "model_output_valid": true,
+      "screenshot_after": 4
+    },
+    {
+      "index": 4,
+      "screenshot_before": 4,
+      "model_text": "<thinking>\nThought: I should open the brightness level settings to set it to the minimum.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[231,342]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 249,
+        "y": 821
+      },
+      "model_output_valid": true,
+      "screenshot_after": 5
+    },
+    {
+      "index": 5,
+      "screenshot_before": 5,
+      "model_text": "<thinking>\nThought: I need to set the brightness slider to the far-left position to reach minimum.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[637,90]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 688,
+        "y": 216
+      },
+      "model_output_valid": true,
+      "screenshot_after": 6
+    },
+    {
+      "index": 6,
+      "screenshot_before": 6,
+      "model_text": "<thinking>\nThought: I need to move the brightness slider to the far-left extreme to set it to the minimum.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[67,88]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 72,
+        "y": 211
+      },
+      "model_output_valid": true,
+      "screenshot_after": 7
+    },
+    {
+      "index": 7,
+      "screenshot_before": 7,
+      "model_text": "<thinking>\nThought: The brightness slider is at the far-left extreme, so the brightness is now at the minimum level.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"answer\",\"text\":\"task finished\"}}\n</tool_call>",
+      "action": {
+        "action_type": "answer",
+        "text": "task finished"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 8
+    }
+  ],
+  "artifacts": {
+    "screenshots": [
+      {
+        "path": "images/ff/ff1de130eb551360be6cc813b9ac6befe4313cb6d71bd3be67f5f3e1cb75c394.png",
+        "sha256": "ff1de130eb551360be6cc813b9ac6befe4313cb6d71bd3be67f5f3e1cb75c394",
+        "bytes": 1447240
+      },
+      {
+        "path": "images/e3/e305051864aab1fcb6b16a9000c8d14332b067ab5b6c063410328ea9e14797ea.png",
+        "sha256": "e305051864aab1fcb6b16a9000c8d14332b067ab5b6c063410328ea9e14797ea",
+        "bytes": 100070
+      },
+      {
+        "path": "images/e3/e3202d3628c45918ff8301e46e1902b24f5b731132cc0de41d7ec190b56b48f4.png",
+        "sha256": "e3202d3628c45918ff8301e46e1902b24f5b731132cc0de41d7ec190b56b48f4",
+        "bytes": 147946
+      },
+      {
+        "path": "images/9c/9c2ab9b6eec58f89cb56d0de8b7e5937f37b24e13d06d49e9d55652981b7be9a.png",
+        "sha256": "9c2ab9b6eec58f89cb56d0de8b7e5937f37b24e13d06d49e9d55652981b7be9a",
+        "bytes": 164640
+      },
+      {
+        "path": "images/d0/d0d8f537311722121e7f806e3aad6c0ed842c41a306aafca1cd01d7bc1ed8c4a.png",
+        "sha256": "d0d8f537311722121e7f806e3aad6c0ed842c41a306aafca1cd01d7bc1ed8c4a",
+        "bytes": 129782
+      },
+      {
+        "path": "images/cd/cd7fa76e9e0138b63c2507210671b171655fdba2981b70e666634789ce8c6bcc.png",
+        "sha256": "cd7fa76e9e0138b63c2507210671b171655fdba2981b70e666634789ce8c6bcc",
+        "bytes": 134609
+      },
+      {
+        "path": "images/9c/9ca1bf48c1a3f6e57389a22b510cd3ee9c80048595a104eddf1b4cd116e28253.png",
+        "sha256": "9ca1bf48c1a3f6e57389a22b510cd3ee9c80048595a104eddf1b4cd116e28253",
+        "bytes": 134924
+      },
+      {
+        "path": "images/d1/d16fadd59c6ae810da52f8979b98e6a6dae35abedd3bbf20c40bad6452e90c75.png",
+        "sha256": "d16fadd59c6ae810da52f8979b98e6a6dae35abedd3bbf20c40bad6452e90c75",
+        "bytes": 134405
+      },
+      {
+        "path": "images/d1/d16fadd59c6ae810da52f8979b98e6a6dae35abedd3bbf20c40bad6452e90c75.png",
+        "sha256": "d16fadd59c6ae810da52f8979b98e6a6dae35abedd3bbf20c40bad6452e90c75",
+        "bytes": 134405
+      }
+    ]
+  }
+}

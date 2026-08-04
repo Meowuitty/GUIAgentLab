@@ -1,0 +1,174 @@
+{
+  "schema_version": 2,
+  "episode_id": "dc8d7b2905df47ba9307255e515ba6ba",
+  "task_name": "AdjustFontIconMinimumTask",
+  "goal": "Decrease the font size and icons on your phone to the minimum setting.",
+  "valid": true,
+  "final_score": 1.0,
+  "termination": "model_terminal",
+  "step_count": 9,
+  "model_errors": [],
+  "initial_screenshot": 0,
+  "steps": [
+    {
+      "index": 0,
+      "screenshot_before": 0,
+      "model_text": "<thinking>\nThought: I should open Settings to adjust Display > Font size and text size to the minimum, and Accessibility > Display size to minimum.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[863,823]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 932,
+        "y": 1977
+      },
+      "model_output_valid": true,
+      "screenshot_after": 1
+    },
+    {
+      "index": 1,
+      "screenshot_before": 1,
+      "model_text": "<thinking>\nThought: The Settings screen seems to be loading. I will wait for it to appear.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"wait\"}}\n</tool_call>",
+      "action": {
+        "action_type": "wait"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 2
+    },
+    {
+      "index": 2,
+      "screenshot_before": 2,
+      "model_text": "<thinking>\nThought: I need to reach Accessibility settings to set Display size to minimum, then go to Display and set Font size to minimum.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"swipe\",\"direction\":\"up\",\"coordinate\":[500,800]}}\n</tool_call>",
+      "action": {
+        "action_type": "scroll",
+        "x": 540,
+        "y": 1921,
+        "direction": "down"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 3
+    },
+    {
+      "index": 3,
+      "screenshot_before": 3,
+      "model_text": "<thinking>\nThought: I need to open Display settings to adjust Font size and then Accessibility to set Display size to minimum.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[257,833]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 277,
+        "y": 2001
+      },
+      "model_output_valid": true,
+      "screenshot_after": 4
+    },
+    {
+      "index": 4,
+      "screenshot_before": 4,
+      "model_text": "<thinking>\nThought: I need to open Display size and text to adjust Font size to minimum.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[287,885]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 310,
+        "y": 2126
+      },
+      "model_output_valid": true,
+      "screenshot_after": 5
+    },
+    {
+      "index": 5,
+      "screenshot_before": 5,
+      "model_text": "<thinking>\nThought: I will set Font size to minimum by moving the Font size slider to the far left.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[90,715]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 97,
+        "y": 1717
+      },
+      "model_output_valid": true,
+      "screenshot_after": 6
+    },
+    {
+      "index": 6,
+      "screenshot_before": 6,
+      "model_text": "<thinking>\nThought: I need to set Display size to minimum on Display size and text.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[80,823]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 86,
+        "y": 1977
+      },
+      "model_output_valid": true,
+      "screenshot_after": 7
+    },
+    {
+      "index": 7,
+      "screenshot_before": 7,
+      "model_text": "<thinking>\nThought: The Font size slider is already at minimum. Now I should set Display size to minimum by moving the Display size slider to the far left.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[87,823]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 94,
+        "y": 1977
+      },
+      "model_output_valid": true,
+      "screenshot_after": 8
+    },
+    {
+      "index": 8,
+      "screenshot_before": 8,
+      "model_text": "<thinking>\nThought: The Display size slider is at the far left, so the minimum setting is applied. Font size is already at its minimum. Task is complete.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"answer\",\"text\":\"task finished\"}}\n</tool_call>",
+      "action": {
+        "action_type": "answer",
+        "text": "task finished"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 9
+    }
+  ],
+  "artifacts": {
+    "screenshots": [
+      {
+        "path": "images/63/63f2590fc76c72da9cdac6566ad0013734dad4ef053dfa5f30a2b20960ec46fe.png",
+        "sha256": "63f2590fc76c72da9cdac6566ad0013734dad4ef053dfa5f30a2b20960ec46fe",
+        "bytes": 1447415
+      },
+      {
+        "path": "images/2c/2c9b0bfb98dcb31c0041197d2a423ba7daae353735326f68ce361021339e03f0.png",
+        "sha256": "2c9b0bfb98dcb31c0041197d2a423ba7daae353735326f68ce361021339e03f0",
+        "bytes": 21526
+      },
+      {
+        "path": "images/70/70b8fefa42d30f3907fcd84657b322b739c4d99de9cd97161b158e1d303c512c.png",
+        "sha256": "70b8fefa42d30f3907fcd84657b322b739c4d99de9cd97161b158e1d303c512c",
+        "bytes": 148000
+      },
+      {
+        "path": "images/60/60ccb0d6ed655a3e5a38bed59bb86c1ff958ea5b1ea2452c002bb12cc877874e.png",
+        "sha256": "60ccb0d6ed655a3e5a38bed59bb86c1ff958ea5b1ea2452c002bb12cc877874e",
+        "bytes": 168036
+      },
+      {
+        "path": "images/bc/bc2160ba3e3f33ff098748e0fc179bf72751e03bd2e0da66edcd968e332390c8.png",
+        "sha256": "bc2160ba3e3f33ff098748e0fc179bf72751e03bd2e0da66edcd968e332390c8",
+        "bytes": 129838
+      },
+      {
+        "path": "images/45/4504bb07dd7d62d687322640eb8c978f39fe0c1d465f20697860c96da7200dd7.png",
+        "sha256": "4504bb07dd7d62d687322640eb8c978f39fe0c1d465f20697860c96da7200dd7",
+        "bytes": 222481
+      },
+      {
+        "path": "images/2e/2e55aae0827d9ea92144d0c972b7b31a4ce387a7000730dde4482d24f250666f.png",
+        "sha256": "2e55aae0827d9ea92144d0c972b7b31a4ce387a7000730dde4482d24f250666f",
+        "bytes": 226503
+      },
+      {
+        "path": "images/f2/f254a746e7ea6944f0870e14519a70b1304d50692f4b78d70243a79cd50865c9.png",
+        "sha256": "f254a746e7ea6944f0870e14519a70b1304d50692f4b78d70243a79cd50865c9",
+        "bytes": 223700
+      },
+      {
+        "path": "images/d8/d8e3bd23ea49a1e8500f75dbd2a4f8791b5c877b813df4d0af006bbab90fcfa7.png",
+        "sha256": "d8e3bd23ea49a1e8500f75dbd2a4f8791b5c877b813df4d0af006bbab90fcfa7",
+        "bytes": 176275
+      },
+      {
+        "path": "images/d8/d8e3bd23ea49a1e8500f75dbd2a4f8791b5c877b813df4d0af006bbab90fcfa7.png",
+        "sha256": "d8e3bd23ea49a1e8500f75dbd2a4f8791b5c877b813df4d0af006bbab90fcfa7",
+        "bytes": 176275
+      }
+    ]
+  }
+}

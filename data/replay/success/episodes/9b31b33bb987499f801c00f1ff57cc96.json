@@ -1,0 +1,141 @@
+{
+  "schema_version": 2,
+  "episode_id": "9b31b33bb987499f801c00f1ff57cc96",
+  "task_name": "MastodonChangeHeaderTask",
+  "goal": "On Mastodon, replace my profile header with the tiger photo from my photo gallery.",
+  "valid": true,
+  "final_score": 1.0,
+  "termination": "model_terminal",
+  "step_count": 7,
+  "model_errors": [],
+  "initial_screenshot": 0,
+  "steps": [
+    {
+      "index": 0,
+      "screenshot_before": 0,
+      "model_text": "<thinking>\nThought: I need to open Mastodon to edit the profile header.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[152,400]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 164,
+        "y": 960
+      },
+      "model_output_valid": true,
+      "screenshot_after": 1
+    },
+    {
+      "index": 1,
+      "screenshot_before": 1,
+      "model_text": "<thinking>\nThought: I need to open the Profile tab in Mastodon to edit the profile header.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[879,928]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 950,
+        "y": 2229
+      },
+      "model_output_valid": true,
+      "screenshot_after": 2
+    },
+    {
+      "index": 2,
+      "screenshot_before": 2,
+      "model_text": "<thinking>\nThought: I need to open the profile editor to change the header.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[444,444]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 480,
+        "y": 1066
+      },
+      "model_output_valid": true,
+      "screenshot_after": 3
+    },
+    {
+      "index": 3,
+      "screenshot_before": 3,
+      "model_text": "<thinking>\nThought: I need to change the profile header by tapping the current header image.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[499,201]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 539,
+        "y": 482
+      },
+      "model_output_valid": true,
+      "screenshot_after": 4
+    },
+    {
+      "index": 4,
+      "screenshot_before": 4,
+      "model_text": "<thinking>\nThought: I should select the tiger photo from the recent images to set it as the header.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[833,666]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 900,
+        "y": 1600
+      },
+      "model_output_valid": true,
+      "screenshot_after": 5
+    },
+    {
+      "index": 5,
+      "screenshot_before": 5,
+      "model_text": "<thinking>\nThought: The tiger photo is now set as the profile header; I should save the changes.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[500,532]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 540,
+        "y": 1278
+      },
+      "model_output_valid": true,
+      "screenshot_after": 6
+    },
+    {
+      "index": 6,
+      "screenshot_before": 6,
+      "model_text": "<thinking>\nThought: The tiger photo is now set as the profile header, and the changes are saved. Task complete.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"answer\",\"text\":\"task finished\"}}\n</tool_call>",
+      "action": {
+        "action_type": "answer",
+        "text": "task finished"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 7
+    }
+  ],
+  "artifacts": {
+    "screenshots": [
+      {
+        "path": "images/49/49516c06ded07b0f17ee36b71149e88fdd11689852111f18bdb2b0a98cd296d3.png",
+        "sha256": "49516c06ded07b0f17ee36b71149e88fdd11689852111f18bdb2b0a98cd296d3",
+        "bytes": 1440857
+      },
+      {
+        "path": "images/5e/5ed20758c9bcf489535d5bc29346386b168737af7dd4edd104266aa8c49c0af3.png",
+        "sha256": "5ed20758c9bcf489535d5bc29346386b168737af7dd4edd104266aa8c49c0af3",
+        "bytes": 52258
+      },
+      {
+        "path": "images/f9/f9f11d76ae908f2af86e8b306ed9f77c29781c80f527a6038a2b7ac2990fb610.png",
+        "sha256": "f9f11d76ae908f2af86e8b306ed9f77c29781c80f527a6038a2b7ac2990fb610",
+        "bytes": 445358
+      },
+      {
+        "path": "images/69/69506ea5d2d66cbfb8da567b88d4a15d2cb8fe8174a08999ecf067d824eb56d0.png",
+        "sha256": "69506ea5d2d66cbfb8da567b88d4a15d2cb8fe8174a08999ecf067d824eb56d0",
+        "bytes": 379869
+      },
+      {
+        "path": "images/4b/4b9fd8461780a7bf3d2c055501c4267c46bd4f3a6127e3c693a0b32176c7dd88.png",
+        "sha256": "4b9fd8461780a7bf3d2c055501c4267c46bd4f3a6127e3c693a0b32176c7dd88",
+        "bytes": 1929720
+      },
+      {
+        "path": "images/ed/ed350fa8952dc83bdcf39f2c2e6ee781a2c63aea23d8ec22a3123e0f1be402eb.png",
+        "sha256": "ed350fa8952dc83bdcf39f2c2e6ee781a2c63aea23d8ec22a3123e0f1be402eb",
+        "bytes": 785968
+      },
+      {
+        "path": "images/00/0091aff4dd2c541fdac4471de86e14755fd318558eafc0dad3a66072f3e9b924.png",
+        "sha256": "0091aff4dd2c541fdac4471de86e14755fd318558eafc0dad3a66072f3e9b924",
+        "bytes": 792282
+      },
+      {
+        "path": "images/00/0091aff4dd2c541fdac4471de86e14755fd318558eafc0dad3a66072f3e9b924.png",
+        "sha256": "0091aff4dd2c541fdac4471de86e14755fd318558eafc0dad3a66072f3e9b924",
+        "bytes": 792282
+      }
+    ]
+  }
+}

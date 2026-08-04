@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "name": "success",
+  "source_model": "MAI-UI-2B",
+  "episodes": [
+    {
+      "task_name": "AcceptMeetingTask",
+      "episode_id": "3979637709cb4fc78373486361642d73",
+      "episode_sha256": "5ff81a2dabaca26a23907d73e7b870ff7996650117f532c35ba800a2fab84260"
+    },
+    {
+      "task_name": "AdjustBrightnessMinimumTask",
+      "episode_id": "ec50588ad44c4161988c980a61788ffc",
+      "episode_sha256": "5166aef466636940e6678d73eb8e89683b4c629e1b6d5c127c4290147e579c50"
+    },
+    {
+      "task_name": "AdjustFontIconMinimumTask",
+      "episode_id": "dc8d7b2905df47ba9307255e515ba6ba",
+      "episode_sha256": "80c7af0173337c2b711a0caf1913ac57e0efd7c2aeb2eecd0a1dd92223ddaef0"
+    },
+    {
+      "task_name": "ChangeWallpaperTask",
+      "episode_id": "c9758880c2ce4d7eae50452720b2e7ce",
+      "episode_sha256": "e9d97246899b6e02bf255a0dcb268f30c989b855bb2d20f7c8f9509e217171f2"
+    },
+    {
+      "task_name": "CheckDepartTimeTask",
+      "episode_id": "633291e900a646deb5782198079086aa",
+      "episode_sha256": "cc5b60d6da3e6bd9627929b1cd266728f2f5f45c8aa13ca0704b7c7d225cf35c"
+    },
+    {
+      "task_name": "CheckPuchasedItem",
+      "episode_id": "063c0d10e6cb466d88742d6a9446048e",
+      "episode_sha256": "7eb96fa6dfb4f7b66504dd3dfea44e4757038baa7e3ca7b69a7d0846f39add44"
+    },
+    {
+      "task_name": "CheckRegistrationTask",
+      "episode_id": "31c4f8a5c8dd45adbe2d455aaf609c84",
+      "episode_sha256": "b4f7cfda8bc5a17f513fbf0276fc69980b33da24d9f6c99e78d1f76e1c91b908"
+    },
+    {
+      "task_name": "CheckSetMeetTimeTask",
+      "episode_id": "b3097d33c4d74ed19a56ceb3d6132771",
+      "episode_sha256": "856c91d826d3a093ac3f6078581f4e224dcea6a853c61eb8f722a9774034d66f"
+    },
+    {
+      "task_name": "MastodonChangeHeaderTask",
+      "episode_id": "9b31b33bb987499f801c00f1ff57cc96",
+      "episode_sha256": "5ae2426a56d8f5076daf952cd98fa47c4df3707db3325b06c3464871d71e995e"
+    },
+    {
+      "task_name": "MastodonCreateListTask",
+      "episode_id": "06aa96d95f764bb2bb1c2ef722dc7df5",
+      "episode_sha256": "72dbfa18cac330553e07b603403d52a68cd9005920ef22df422c220d589cc2e7"
+    },
+    {
+      "task_name": "MastodonCreateMemoTask",
+      "episode_id": "dd73e59075014719824b41b2fbd18712",
+      "episode_sha256": "646f6e64a2d856824adb0a307f61b3c9f36f51c25607d54559ea46d3984c66ad"
+    },
+    {
+      "task_name": "MastodonFollowTask",
+      "episode_id": "3fb3e117b5cc4f4cbcf05f9bf94aaffb",
+      "episode_sha256": "7d4798e0e0efb0dac1f1f81cfa99217b33d337edd97e6ad18dd78383bff2eb15"
+    },
+    {
+      "task_name": "MastodonPinTootsTask",
+      "episode_id": "a14456a51e8a475c83801b724ad341a1",
+      "episode_sha256": "b725c17becb29063c3a8b9cecfbf14cbbf8f556d5688eb5f10cbaf9762b1e4c2"
+    },
+    {
+      "task_name": "MastodonReplyTask",
+      "episode_id": "2b12355f1ea548fbb74a54e515907b77",
+      "episode_sha256": "ea864381ac14b483ac245d3f7128b55b4b5406ec3f77fc45d2749ad0a29ab3bb"
+    },
+    {
+      "task_name": "MastodonRevisePollTask",
+      "episode_id": "dafe3c6bb2cb4336996e280476e8a62d",
+      "episode_sha256": "04fc6d6c09222fd0936cd0e7f5400b5ba01e7ddecb969ec23513946d924a51a0"
+    },
+    {
+      "task_name": "RequestCarpoolingTask",
+      "episode_id": "916bddf189464431afbf420b621b24c6",
+      "episode_sha256": "6b04eac9f8676c6756cb42452ae1c42fdf590799f8edf4caef385141aafad361"
+    },
+    {
+      "task_name": "SetAlarmTask",
+      "episode_id": "8dee0aadb98349ac9960f9c9a6ad11fe",
+      "episode_sha256": "f4e57da383b0a08b0ec063f4fbbbfe9e4ae00248c8761b00bf2c48d18d4c9d11"
+    },
+    {
+      "task_name": "TakeSelfieTask",
+      "episode_id": "72789588d01541758f9dd5dc14e9d58b",
+      "episode_sha256": "16a8a7f30b400b88fbf86e55cb074adc06c1f5eecc9f643122dcc315e58f5aba"
+    }
+  ]
+}

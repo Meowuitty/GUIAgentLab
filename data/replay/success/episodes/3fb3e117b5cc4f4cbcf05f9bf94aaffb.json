@@ -1,0 +1,222 @@
+{
+  "schema_version": 2,
+  "episode_id": "3fb3e117b5cc4f4cbcf05f9bf94aaffb",
+  "task_name": "MastodonFollowTask",
+  "goal": "Find Robert's nickname in Contacts, then search it on Mastodon, and follow him.",
+  "valid": true,
+  "final_score": 1.0,
+  "termination": "model_terminal",
+  "step_count": 12,
+  "model_errors": [],
+  "initial_screenshot": 0,
+  "steps": [
+    {
+      "index": 0,
+      "screenshot_before": 0,
+      "model_text": "<thinking>\nThought: I need to open the Contacts app to find Robert's nickname, then search it on Mastodon and follow the account.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"open\",\"text\":\"Contacts\"}}\n</tool_call>",
+      "action": {
+        "action_type": "open_app",
+        "app_name": "Contacts"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 1
+    },
+    {
+      "index": 1,
+      "screenshot_before": 1,
+      "model_text": "<thinking>\nThought: I need to skip the sign-in screen to access the contacts list and search for Robert’s nickname.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[612,943]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 661,
+        "y": 2265
+      },
+      "model_output_valid": true,
+      "screenshot_after": 2
+    },
+    {
+      "index": 2,
+      "screenshot_before": 2,
+      "model_text": "<thinking>\nThought: I should use the search bar to find Robert’s contact and read his nickname.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[307,90]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 331,
+        "y": 216
+      },
+      "model_output_valid": true,
+      "screenshot_after": 3
+    },
+    {
+      "index": 3,
+      "screenshot_before": 3,
+      "model_text": "<thinking>\nThought: I will search for \"Robert\" to find his contact and read the nickname.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"type\",\"text\":\"Robert\"}}\n</tool_call>",
+      "action": {
+        "action_type": "input_text",
+        "text": "Robert"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 4
+    },
+    {
+      "index": 4,
+      "screenshot_before": 4,
+      "model_text": "<thinking>\nThought: I need to open Robert’s contact to view his nickname.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[314,166]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 339,
+        "y": 398
+      },
+      "model_output_valid": true,
+      "screenshot_after": 5
+    },
+    {
+      "index": 5,
+      "screenshot_before": 5,
+      "model_text": "<thinking>\nThought: I have Robert’s nickname (rainbow123). Now I need to open Mastodon, search for rainbow123, and follow him.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"open\",\"text\":\"Mastodon\"}}\n</tool_call>",
+      "action": {
+        "action_type": "open_app",
+        "app_name": "Mastodon"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 6
+    },
+    {
+      "index": 6,
+      "screenshot_before": 6,
+      "model_text": "<thinking>\nThought: I will open the search feature to look for the nickname.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[376,922]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 406,
+        "y": 2215
+      },
+      "model_output_valid": true,
+      "screenshot_after": 7
+    },
+    {
+      "index": 7,
+      "screenshot_before": 7,
+      "model_text": "<thinking>\nThought: I will search for the nickname to find Robert’s Mastodon profile.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[328,104]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 354,
+        "y": 249
+      },
+      "model_output_valid": true,
+      "screenshot_after": 8
+    },
+    {
+      "index": 8,
+      "screenshot_before": 8,
+      "model_text": "<thinking>\nThought: I will search for the nickname to locate Robert’s account.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"type\",\"text\":\"rainbow123\"}}\n</tool_call>",
+      "action": {
+        "action_type": "input_text",
+        "text": "rainbow123"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 9
+    },
+    {
+      "index": 9,
+      "screenshot_before": 9,
+      "model_text": "<thinking>\nThought: I should open Robert’s Mastodon profile to follow him.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[279,411]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 301,
+        "y": 987
+      },
+      "model_output_valid": true,
+      "screenshot_after": 10
+    },
+    {
+      "index": 10,
+      "screenshot_before": 10,
+      "model_text": "<thinking>\nThought: I should tap the Follow button to start following rainbow123.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[444,411]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 480,
+        "y": 987
+      },
+      "model_output_valid": true,
+      "screenshot_after": 11
+    },
+    {
+      "index": 11,
+      "screenshot_before": 11,
+      "model_text": "<thinking>\nThought: Robert’s nickname is rainbow123. I found it in Contacts and followed him on Mastodon.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"answer\",\"text\":\"Robert’s nickname is rainbow123. I found it in Contacts and followed him on Mastodon.\"}}\n</tool_call>",
+      "action": {
+        "action_type": "answer",
+        "text": "Robert’s nickname is rainbow123. I found it in Contacts and followed him on Mastodon."
+      },
+      "model_output_valid": true,
+      "screenshot_after": 12
+    }
+  ],
+  "artifacts": {
+    "screenshots": [
+      {
+        "path": "images/ed/ed1c900347e9ca365fe6cd59ae922241483b1a0b8b9dd108d9c7700a4b22b574.png",
+        "sha256": "ed1c900347e9ca365fe6cd59ae922241483b1a0b8b9dd108d9c7700a4b22b574",
+        "bytes": 1440949
+      },
+      {
+        "path": "images/8e/8e788841d2d70cba509c245a4667fcf9eda8c534e979f8382e1eb756fa937c0d.png",
+        "sha256": "8e788841d2d70cba509c245a4667fcf9eda8c534e979f8382e1eb756fa937c0d",
+        "bytes": 262175
+      },
+      {
+        "path": "images/8d/8df6031aab3fafa1cba454bc042cb7dc55b7b29e32c14c8d30438862506fbeed.png",
+        "sha256": "8df6031aab3fafa1cba454bc042cb7dc55b7b29e32c14c8d30438862506fbeed",
+        "bytes": 195928
+      },
+      {
+        "path": "images/f6/f69ad9b590063a3ea6a5099d4100d4464a9378f72b4d0acba6a0cf2858efb1f5.png",
+        "sha256": "f69ad9b590063a3ea6a5099d4100d4464a9378f72b4d0acba6a0cf2858efb1f5",
+        "bytes": 39531
+      },
+      {
+        "path": "images/7e/7e6507e2063204f42278e29dc48280740df39cccc6d1eab7aa20ab428283fdce.png",
+        "sha256": "7e6507e2063204f42278e29dc48280740df39cccc6d1eab7aa20ab428283fdce",
+        "bytes": 49321
+      },
+      {
+        "path": "images/bd/bde035ffa3686e388b9fe0610282c490ee074be1b9b92fed306b4855ca2d3645.png",
+        "sha256": "bde035ffa3686e388b9fe0610282c490ee074be1b9b92fed306b4855ca2d3645",
+        "bytes": 95936
+      },
+      {
+        "path": "images/32/32fe3ef8766d6f45210415fe74bdad9db12dccf982bc0fada34d78052bf8a3d0.png",
+        "sha256": "32fe3ef8766d6f45210415fe74bdad9db12dccf982bc0fada34d78052bf8a3d0",
+        "bytes": 47182
+      },
+      {
+        "path": "images/8d/8de1608e8f1a28be93f7134979e8fd58f4bb84436480c672b7e3b78db3cb0d3f.png",
+        "sha256": "8de1608e8f1a28be93f7134979e8fd58f4bb84436480c672b7e3b78db3cb0d3f",
+        "bytes": 73267
+      },
+      {
+        "path": "images/3e/3e0868d018e87321f0f185e2c4244420eb68650f91e8ecc941b9f7f4c40e4cdc.png",
+        "sha256": "3e0868d018e87321f0f185e2c4244420eb68650f91e8ecc941b9f7f4c40e4cdc",
+        "bytes": 39713
+      },
+      {
+        "path": "images/f4/f446f00595e8bbe03a0bd8991ee72b70f9d05e441542a5e3d576fd9ef431a207.png",
+        "sha256": "f446f00595e8bbe03a0bd8991ee72b70f9d05e441542a5e3d576fd9ef431a207",
+        "bytes": 105931
+      },
+      {
+        "path": "images/84/84f9e078fd7b8d7db2f86dccf657de1388d63549ef71fe8a58758cafe880a4b2.png",
+        "sha256": "84f9e078fd7b8d7db2f86dccf657de1388d63549ef71fe8a58758cafe880a4b2",
+        "bytes": 107540
+      },
+      {
+        "path": "images/34/3457ce70ccb41bd711e0b96aefad889027fc4dae46370081f5f0f59d0ab53b2d.png",
+        "sha256": "3457ce70ccb41bd711e0b96aefad889027fc4dae46370081f5f0f59d0ab53b2d",
+        "bytes": 109404
+      },
+      {
+        "path": "images/34/3457ce70ccb41bd711e0b96aefad889027fc4dae46370081f5f0f59d0ab53b2d.png",
+        "sha256": "3457ce70ccb41bd711e0b96aefad889027fc4dae46370081f5f0f59d0ab53b2d",
+        "bytes": 109404
+      }
+    ]
+  }
+}

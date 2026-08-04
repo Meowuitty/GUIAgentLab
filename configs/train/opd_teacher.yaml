@@ -1,0 +1,16 @@
+method: opd-teacher
+algorithm: opd
+script: scripts/train/opd.sh
+environment:
+  TEACHER_INTERVENTION_ENABLED: "true"
+  HIERARCHICAL_ACTION_WEIGHTING: "true"
+  LOSS_AGG_MODE: seq-mean-token-mean
+  MAX_PROMPT_LENGTH: "20000"
+  ACTOR_GPU_MEMORY_UTILIZATION: "0.45"
+  SAVE_FREQ: "1"
+  ROLLING_CHECKPOINT_RETENTION: "true"
+required_environment:
+  - GUIAGENTLAB_STATE_DIR
+  - MODEL_PATH
+  - TEACHER_MODEL_PATH
+  - WANDB_API_KEY

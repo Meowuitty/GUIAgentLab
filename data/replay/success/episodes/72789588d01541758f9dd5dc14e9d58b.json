@@ -1,0 +1,106 @@
+{
+  "schema_version": 2,
+  "episode_id": "72789588d01541758f9dd5dc14e9d58b",
+  "task_name": "TakeSelfieTask",
+  "goal": "Take a photo.",
+  "valid": true,
+  "final_score": 1.0,
+  "termination": "model_terminal",
+  "step_count": 5,
+  "model_errors": [],
+  "initial_screenshot": 0,
+  "steps": [
+    {
+      "index": 0,
+      "screenshot_before": 0,
+      "model_text": "<thinking>\nThought: I should open the Camera app to take a photo.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"open\",\"text\":\"Camera\"}}\n</tool_call>",
+      "action": {
+        "action_type": "open_app",
+        "app_name": "Camera"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 1
+    },
+    {
+      "index": 1,
+      "screenshot_before": 1,
+      "model_text": "<thinking>\nThought: I need to proceed through the Camera setup to reach the photo-taking screen.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[500,930]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 540,
+        "y": 2234
+      },
+      "model_output_valid": true,
+      "screenshot_after": 2
+    },
+    {
+      "index": 2,
+      "screenshot_before": 2,
+      "model_text": "<thinking>\nThought: I should grant location access so the camera can work, then I can take a photo.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[487,615]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 526,
+        "y": 1477
+      },
+      "model_output_valid": true,
+      "screenshot_after": 3
+    },
+    {
+      "index": 3,
+      "screenshot_before": 3,
+      "model_text": "<thinking>\nThought: I should tap the shutter button to take the photo.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"click\",\"coordinate\":[500,910]}}\n</tool_call>",
+      "action": {
+        "action_type": "click",
+        "x": 540,
+        "y": 2186
+      },
+      "model_output_valid": true,
+      "screenshot_after": 4
+    },
+    {
+      "index": 4,
+      "screenshot_before": 4,
+      "model_text": "<thinking>\nThought: The camera app opened with location access granted, and I just tapped the shutter button. The photo should have been taken.\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"answer\",\"text\":\"task finished\"}}\n</tool_call>",
+      "action": {
+        "action_type": "answer",
+        "text": "task finished"
+      },
+      "model_output_valid": true,
+      "screenshot_after": 5
+    }
+  ],
+  "artifacts": {
+    "screenshots": [
+      {
+        "path": "images/de/defe7d2f5bf8e76ab4845feed7cc4ec0fed97590a9304be8acd52cdb549a5d55.png",
+        "sha256": "defe7d2f5bf8e76ab4845feed7cc4ec0fed97590a9304be8acd52cdb549a5d55",
+        "bytes": 1447365
+      },
+      {
+        "path": "images/a8/a878064719a01e646bf58796fc4af280d1b6a2fc0d3b59667429d8e7f60f9f6e.png",
+        "sha256": "a878064719a01e646bf58796fc4af280d1b6a2fc0d3b59667429d8e7f60f9f6e",
+        "bytes": 177406
+      },
+      {
+        "path": "images/dc/dc8fd3737b9b3c6a70c1d8d887e95b671e154d4328ef248f7c49859d46cb523b.png",
+        "sha256": "dc8fd3737b9b3c6a70c1d8d887e95b671e154d4328ef248f7c49859d46cb523b",
+        "bytes": 174479
+      },
+      {
+        "path": "images/ac/acf4ec807aad2da89c32a5956d929ed6405bc9e319826db0bd39ef5acd965ec6.png",
+        "sha256": "acf4ec807aad2da89c32a5956d929ed6405bc9e319826db0bd39ef5acd965ec6",
+        "bytes": 29314
+      },
+      {
+        "path": "images/cf/cff26e606bc6a27a5a19df07f6e852d5394d00a6321f7c08af6597d3dd04c0c0.png",
+        "sha256": "cff26e606bc6a27a5a19df07f6e852d5394d00a6321f7c08af6597d3dd04c0c0",
+        "bytes": 29947
+      },
+      {
+        "path": "images/f6/f63901833b63189c3e31f9c4e1778fdfedb3a26b2b85e3ae51bda1e7d14aaccd.png",
+        "sha256": "f63901833b63189c3e31f9c4e1778fdfedb3a26b2b85e3ae51bda1e7d14aaccd",
+        "bytes": 29844
+      }
+    ]
+  }
+}

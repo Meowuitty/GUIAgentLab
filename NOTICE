@@ -1,0 +1,11 @@
+GUIAgentLab
+Copyright 2026 GUIAgentLab contributors
+
+This distribution integrates source from the following Apache-2.0 licensed
+projects as pinned vendored directories:
+
+- MobileWorld, Copyright its respective contributors.
+- verl, Copyright 2024 Bytedance Ltd. and/or its affiliates and contributors.
+
+Their source, license, and copyright notices remain in the corresponding
+vendored directories. Base commits are recorded in configs/upstream.yaml.

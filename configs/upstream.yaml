@@ -1,0 +1,12 @@
+mobileworld:
+  repository: https://github.com/Tongyi-MAI/MobileWorld
+  base_commit: 8ae506487bf87785292d6cad101c49955d704d39
+  source_mount: mobile_world/src
+  container_mount: /app/service/src
+  image: ghcr.io/tongyi-mai/mobile_world:latest
+  image_created: "2025-12-24T12:40:24Z"
+  image_id: sha256:aa743a95daef5cd25c54fc37626c2521c03b9c9d8d1aac4cc287f3643a3e23f3
+  image_registry_digest: sha256:b680380eac98a7ad064707f9653772af18554d201a3e6e7cf8f15d58cdc73240
+verl:
+  repository: https://github.com/volcengine/verl
+  base_commit: a35908ca3c9632859c58d6a2855d858918ae21dc
